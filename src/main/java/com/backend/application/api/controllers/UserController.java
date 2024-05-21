@@ -50,6 +50,7 @@ public class UserController {
         userRepo.save(user);
 
         return ResponseEntity.ok("Register is successfully.");
+        
     }
 
 }
